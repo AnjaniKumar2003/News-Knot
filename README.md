@@ -30,7 +30,7 @@ NewsKnot is a website which provides distraction free daily news of all categori
 Clone the project
 
 ```bash
-  git clone https://github.com/tarun1820/newsKnot.git
+  git clone https://github.com/AnjaniKumar2003/News-Knot.git
 ```
 
 Go to the project directory
