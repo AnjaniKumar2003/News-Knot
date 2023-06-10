@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.new_article__styles{    
+    height:auto; 
+    width:73%;    
+    margin:auto;
+    margin-bottom:30px;
+    padding-bottom:1.1%;
+}
+
+.article__container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    margin-top:2%;
+}
+
+.article__image{
+    width:330px;
+    height:220px;
+    margin-left:5px;
+    border-radius:5%;
+}
+
+.Content__container{
+    width:55%;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.title__article{
+    font-family: 'Poppins';
+    font-weight:700;
+    font-size:larger;
+}
+
+.content__article{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+
+.article_bottom{
+    margin:auto;
+    display:flex;
+    width:73%;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    transition: all 0.5s
+}
+
+
+.article_reaction{
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+    align-items:center;
+    justify-content:center;
+    width:auto;    
+    height:auto;
+    padding: 3px 6px 3px 6px;
+    background: #ECF2FF;
+    margin-left:20px;
+}
+
+
+.article_reaction_label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size:15px;
+} 
+
+@media screen and (max-width: 780px){
+    .new_article__styles{
+        margin-top: 10px;
+        width:75%;
+        height:auto;    
+        gap : 15px;
+        display:flex;
+        flex-direction:column;
+        padding-bottom:3%;
+    }
+
+    .article__container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:40px;
+        margin-top:5%;
+    }
+
+    .title__article{
+        font-family: 'Poppins';
+        font-weight:700;
+        font-size:small;
+    }
+
+    .content__article{
+        font-family: 'Montserrat';
+        font-size:11px;
+    }
+
+
+    .article__container :nth-child(1) {order:2;}
+    .article__container :nth-child(2) {order:3;}
+    .article__container :nth-child(3) {order:1;}
+
+
+    .article__image{
+        width:220px;
+        height:147px;
+        margin-left:5px;
+        border-radius:5%;
+    }
+
+    .Content__container{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+}
